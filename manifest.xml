@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Copyright (C) 2020, RTE (http://www.rte-france.com) -->
+<!-- Copyright (C) 2023 Savoir-faire Linux, Inc. -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<manifest>
+  <!-- Remote repositories definition -->
+  <remote name="ort" fetch="https://github.com/oss-review-toolkit"/>
+  
+  <!-- SEAPATH main Yocto project -->
+  <project remote="ort" name="ort-test-data-scanner" revision="main" path="x"/>
+  <project remote="ort" name="ort-test-data-scanner-subrepo" revision="main" path="subrepo"/>
+
+  </manifest>
